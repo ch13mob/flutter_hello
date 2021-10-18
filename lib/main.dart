@@ -17,38 +17,59 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         body: SafeArea(
-          child: Row(
-            children: [
-              Container(
-                width: 50,
-                height: 50,
-                color: Colors.blue,
-              ),
-              Column(
+          child: Center(
+            child: SizedBox(
+              width: 150,
+              height: 150,
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
-                  Container(
-                    width: 50,
-                    height: 50,
-                    color: Colors.red,
+                  Column(
+                    children: [
+                      Container(
+                        width: 50,
+                        height: 50,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        width: 50,
+                        height: 50,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        width: 50,
+                        height: 50,
+                        color: Colors.blue,
+                      ),
+                    ],
                   ),
                   Container(
                     width: 50,
                     height: 50,
-                    color: Colors.yellow,
+                    color: Colors.blue,
                   ),
-                  Container(
-                    width: 50,
-                    height: 50,
-                    color: Colors.black,
-                  ),
+                  Column(
+                    children: [
+                      Container(
+                        width: 50,
+                        height: 50,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        width: 50,
+                        height: 50,
+                        color: Colors.blue,
+                      ),
+                      Container(
+                        width: 50,
+                        height: 50,
+                        color: Colors.blue,
+                      ),
+                    ],
+                  )
                 ],
               ),
-              Container(
-                width: 50,
-                height: 50,
-                color: Colors.green,
-              ),
-            ],
+            ),
           ),
         ),
       ),
