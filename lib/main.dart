@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         body: Container(
-          color: Colors.red,
+          color: Colors.blue,
         ),
       ),
     );
